@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:capfreckle/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:capfreckle/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:capfreckle/prow:hmacToken
+segmentWriteKey: vault:capfreckle:segmentWriteKey
